@@ -4,7 +4,7 @@ import { AnchorMovieReview } from "../target/types/anchor_movie_review";  // Adj
 import assert from "assert";
 import { randomInt } from "crypto";
 import { Metaplex } from "@metaplex-foundation/js";
-import { createMint, getAssociatedTokenAddress } from "@solana/spl-token";
+import { createMint, getMint, getAssociatedTokenAddress } from "@solana/spl-token";
 import { MPL_TOKEN_METADATA_PROGRAM_ID as METADATA_PROGRAM_ID, MPL_TOKEN_METADATA_PROGRAM_ID } from "@metaplex-foundation/mpl-token-metadata"
 
 describe("Movie review Tests",    () => {
